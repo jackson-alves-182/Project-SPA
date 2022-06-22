@@ -13,6 +13,7 @@ header ul{
   gap:4.2rem;
 
   list-style:none;
+  white-space:nowrap;
 }
 
 header ul li:hover{
