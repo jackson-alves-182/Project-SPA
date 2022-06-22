@@ -1,0 +1,29 @@
+header{
+  height:12.2rem;
+
+  padding:4.0rem 0 0 7.2rem;
+  margin-bottom:6.3rem;
+}
+header ul{
+  font-size:2.1rem;
+  color:#C4C4CC;
+
+  display:flex;
+  align-items:center;
+  gap:4.2rem;
+
+  list-style:none;
+}
+
+header ul li:hover{
+  color:#FFFFFF;
+ 
+  cursor:pointer;
+ 
+}
+
+header ul li:hover{
+  font-weight:700;
+  font-size:2.4rem;
+}
+

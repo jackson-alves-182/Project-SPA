@@ -1,0 +1,35 @@
+body{
+  background:url("/bg-img/universe02.png");
+}
+
+.universe-content{
+  max-width:64.8rem;
+
+  padding-left:10.2rem;
+}
+
+h1{
+  color:#FFFFFF;
+  font-size:4.8rem;
+  font-weight:700;
+
+  margin-bottom:1.6rem;
+
+  overflow: hidden;
+}
+
+p{
+  color:#E1E1E6;
+  font-size:1.8rem;
+  line-height:2.8rem;
+}
+
+@media(max-width:600px){
+  .universe-content{
+    padding:0 1.2rem;
+  }
+  p{
+    font-size:1.4rem;
+    line-height:2rem;
+  }
+}
