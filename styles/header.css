@@ -4,9 +4,18 @@ header{
   padding:4.0rem 0 0 7.2rem;
   margin-bottom:6.3rem;
 }
+
+a{
+  text-decoration:none;
+  color:#C4C4CC;
+}
+header ul li a:hover{
+  cursor:pointer;
+  color:#ffffff;
+}
+
 header ul{
   font-size:2.1rem;
-  color:#C4C4CC;
 
   display:flex;
   align-items:center;
@@ -15,13 +24,14 @@ header ul{
   list-style:none;
   white-space:nowrap;
 }
+header ul li:nth-child(2){
+ width:60px;
+} 
+header ul li:nth-child(3){
+  width:102px;
+ } 
 
-header ul li:hover{
-  color:#FFFFFF;
- 
-  cursor:pointer;
- 
-}
+
 
 header ul li:hover{
   font-weight:700;
