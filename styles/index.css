@@ -1,0 +1,11 @@
+
+body{
+  height:100%;
+  padding:2rem;
+}
+
+#content{
+  display:grid; 
+
+  height:80vh;
+}

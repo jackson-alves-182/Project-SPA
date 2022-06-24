@@ -1,8 +1,6 @@
 header{
   height:12.2rem;
-
   padding:4.0rem 0 0 7.2rem;
-  margin-bottom:6.3rem;
 }
 
 a{
@@ -15,26 +13,45 @@ header ul li a:hover{
 }
 
 header ul{
-  font-size:2.1rem;
+  font-size:2.3rem;
 
   display:flex;
-  align-items:center;
-  gap:4.2rem;
+  align-items:flex-end;
+  gap:5.9rem;
 
   list-style:none;
   white-space:nowrap;
 }
+header ul li{
+  display:flex;
+  align-items:flex-end;
+
+  cursor:pointer;
+
+  transition: margin 0.3s;
+}
+header ul li:nth-child(1){
+  width:50px;
+} 
 header ul li:nth-child(2){
- width:60px;
+ width:80px;
 } 
 header ul li:nth-child(3){
-  width:102px;
- } 
-
-
-
+  width:115px;
+} 
 header ul li:hover{
   font-weight:700;
-  font-size:2.4rem;
+  font-size:3.1rem;
+  transform: translateX(-5px) translateY(-10px);
+
+  transition: margin 1s, transform 0.5s;
 }
 
+@media(max-width:635px){
+  header{
+    padding:1rem;
+  }
+  header ul li{
+    display:none;
+  }
+}
