@@ -1,35 +1,49 @@
-body{
-  background:url('/bg-img/universe-2.png');
-}
+
+
 
 .universe-content{
   max-width:80rem;
 
-  padding-left:clamp(3rem, 8vw + 2rem, 10.2rem);
+  margin-left:clamp(1rem, 8vw, 10.8rem);
+  margin-bottom:clamp(1rem, 10vw, 20.8rem);
+
+  animation: fade-in 2s;
 }
 
-h1{
+.universe-content h1 {
   color:#FFFFFF;
-  font-size:clamp(2.8rem, 8vw, 4.8rem);
+  font-size:clamp(1.8rem, 8vw, 5.4rem);
   font-weight:700;
 
   margin-bottom:1.6rem;
   white-space:nowrap;
 }
 
-p{
+.universe-content p{
   color:#E1E1E6;
-  font-size:2.0rem;
-  line-height:3.0rem;
+  font-size:clamp(1.2rem, 5vw, 2.5rem);
+  line-height:3.5rem;
 }
 
 @media(max-width:600px){
   .universe-content{
     text-align:center;
     padding:0 1.2rem;
+    margin:0;
   }
   p{
     font-size:1.4rem;
     line-height:2rem;
+  }
+}
+
+@keyframes fade-in {
+  0%{
+    opacity:0;
+    transform:scale(0);
+  }
+  100%{
+    opacity: 1;
+    transform:scale(1);
   }
 }

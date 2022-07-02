@@ -1,11 +1,41 @@
-
 body{
-  height:100%;
-  padding:2rem;
+  height:100vh;
+  display:grid;
+ 
 }
 
-#content{
-  display:grid; 
+.home{
+  background:url('/bg-img/universe-2.png');
 
-  height:80vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.universe{
+  background:url('/bg-img/universe-1.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.exploration{
+  background:url('/bg-img/universe-3.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+#content{
+  align-self: center;
+  display:grid;
+
+  align-items: center;
+  
+  backdrop-filter:blur(2px);
+  width:100%;
+  height:100%;
+}
+
+.hide{
+  display:none;
 }

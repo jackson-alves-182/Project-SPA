@@ -6,6 +6,7 @@ export class Router {
     this.routes[routName] = page;
   }
 
+
   route(event){
     event = event || window.event;
     event.preventDefault();
