@@ -35,9 +35,5 @@ export default function({router}){
   navExploration.addEventListener('click', function(){
     router.route();
   })
-
-  buttonKnow.addEventListener('click', function(){
-    console.log("yoooo");
-   })
  
 }
