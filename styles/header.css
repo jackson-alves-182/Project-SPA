@@ -29,9 +29,6 @@ header ul{
 }
 header ul li{
   display:flex;
-  align-items:flex-end;
-
-  cursor:pointer;
 
   transition: margin 0.4s;
 }
@@ -48,6 +45,7 @@ header ul li:hover{
   font-weight:700;
   font-size:2.8rem;
   transform: translateX(-5px) translateY(-10px);
+  cursor:pointer;
 
   transition: margin 1s, transform 0.7s;
 }
@@ -59,13 +57,44 @@ header ul li:hover{
   background:transparent;
 }
 
-@media(max-width:635px){
+@media(max-width:600px){
   header{
+    position:fixed;
     top:2rem;
     left:1rem;
+
+  }
+  header ul{
+    position:fixed;
+    right:1.6rem;
+    top:5.5rem;
+
+    display:none;
+    flex-direction:column;
+
+    gap:0;
+  
+    font-size:2.2rem;
+    list-style:none;
+    white-space:nowrap;
+
+    animation: slide-in 1s;
   }
   header ul li{
-    display:none;
+    justify-content:flex-end;
+  }
+  header ul li:nth-child(1),
+  header ul li:nth-child(2),
+  header ul li:nth-child(3)
+  {
+    width:120px;
+    height:30px;
+  } 
+  header ul li:hover{
+    transform: translateX(0) translateY(0);
+    font-size:2.3rem;
+
+    transition: margin 1s;
   }
   .menu-mobile{
     position:fixed;
@@ -76,4 +105,12 @@ header ul li:hover{
 
     animation: fade-in 1s;
   }
+
+  .open-menu{
+    animation: slide-in 1s;
+  }
+  .close-menu {
+    animation: slide-in 1s;
+  }
 }
+

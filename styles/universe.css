@@ -47,3 +47,14 @@
     transform:scale(1);
   }
 }
+
+@keyframes slide-in{
+  0%{
+    opacity:0;
+    transform:translateX(150px);
+  }
+  110%{
+    opacity:1;
+    transform:translateX(0);
+  }
+}
