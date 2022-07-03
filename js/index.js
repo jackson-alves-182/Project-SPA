@@ -14,28 +14,20 @@ router.add("/exploration", "/pages/exploration.html");
 
 navHome.addEventListener('click', function(){
   router.route();
-
-  document.querySelector('body').className = "";
-  document.querySelector('body').classList.add('home');
-
 })
 
 navUniverse.addEventListener('click', function(){
   router.route();
 
-  document.querySelector('body').className = "";
-  document.querySelector('body').classList.add('universe');
 })
 
 navExploration.addEventListener('click', function(){
   router.route();
-
-  document.querySelector('body').className = "";
-  document.querySelector("body").classList.add('exploration');
 })
 
 
 router.handle();
-
+window.onpopstate = () => router.handle();
+window.route = () => router.route();
 
 
