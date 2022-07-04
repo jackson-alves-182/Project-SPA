@@ -107,9 +107,11 @@ header ul li:hover{
   }
 
   .open-menu{
+    border:none;
     animation: slide-in 1s;
   }
   .close-menu {
+    border:none;
     animation: slide-in 1s;
   }
 }

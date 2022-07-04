@@ -39,6 +39,12 @@ export class Router {
       else if (pathname == "/exploration"){
         backgroundExploration();
       }
+
+      
+
+      let nops = fetch('https://placekitten.com/386/508?image=').then(data => data.innerHTML)
+
+      console.log(nops);
     })
   }
 } 
