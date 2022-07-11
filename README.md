@@ -8,15 +8,15 @@ Project SPA - Rocketseat
 
 <h3 align="center"> Desktop Version</h3>
 <h3 align="center">
-<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Desk-Main.jpg" width="400px">
-<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Desk-Universe.jpg" width="400px">
+<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Desk-Main.jpg" width="450px">
+<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Desk-Universe.jpg" width="450px">
 </h3>
 
 <h3 align="center"> Mobile Version </h3>
 
 <h3 align="center">
-<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Mobile-Main.jpg" width="400px">
-<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Mobile-Universe.jpg" width="400px">
+<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Mobile-Main.jpg" width="250px">
+<img src="https://github.com/jackson-alves-182/archives-Readme/blob/main/SPA-imgs/Mobile-Universe.jpg" width="250px">
 </h3>
 
 
